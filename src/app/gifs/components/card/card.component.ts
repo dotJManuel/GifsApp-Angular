@@ -3,9 +3,9 @@ import { Gif } from '../../interfaces/gifs.interfaces';
 
 @Component({
   selector: 'gifs-card',
-  templateUrl: './gifs-card.component.html'
+  templateUrl: './card.component.html'
 })
-export class GifsCardComponent implements OnInit {
+export class CardComponent implements OnInit {
 
   @Input()
   public gif!: Gif;
